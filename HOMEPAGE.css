@@ -386,3 +386,33 @@ footer {
     transform: translateY(-2px);
     color: var(--bg-color);
 }
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: var(--bg-color);
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+    }
+
+    .nav-container {
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .brand-name {
+        margin: auto;
+    }
+    
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+}
